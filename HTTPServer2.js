@@ -6,6 +6,8 @@ var tz = getTimezone();
 
 app.use(bodyParser.json());
 
+//This is only for demo test for Time server
+
 //get function
 app.get('/time',function(request,response){
 
